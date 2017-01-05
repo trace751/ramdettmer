@@ -1,0 +1,13 @@
+.article_p {
+    line-height: -5em;
+    font-size: 1.5em;
+}
+
+article {
+    padding: 20px;
+}
+
+.location {
+    color: #d4a867;
+    font-size: 2em;
+}
