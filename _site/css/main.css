@@ -1,7 +1,11 @@
 *{
     padding: 0;
     margin: 0;
-    }
+}
+
+body {
+    font-family: 'Abel', sans-serif;
+}
 
 .header_img {
     background: url('https://trace751.github.io/ramdettmer/macbook.png') no-repeat center center;
@@ -11,7 +15,7 @@
     -webkitz- background-size: cover;
     -o- background-size: cover;
     -moz- background-size: cover;
-    }
+}
 
 .name_container {
     text-align: center;
