@@ -30,7 +30,3 @@ label {
 input, textarea {
     border: 2px solid #d4a867;
 }
-
-textarea {
-    padding: 50px;
-}
