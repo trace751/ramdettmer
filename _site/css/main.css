@@ -4,7 +4,7 @@
     }
 
 .header_img {
-    background: url(../../img/macbook.png) no-repeat center center;
+    background: url('../../macbook.png') no-repeat center center;
     height: 100vh;
     width: 100%;
     background-size: cover;
