@@ -14,4 +14,23 @@ footer {
 
 form {
     text-align: center;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+label {
+    display: block;
+}
+
+.submit_btn {
+    display: block;
+    margin: 0 auto;
+}
+
+input, textarea {
+    border: 2px solid #d4a867;
+}
+
+textarea {
+    padding: 50px;
 }
