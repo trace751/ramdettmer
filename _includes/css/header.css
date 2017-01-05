@@ -7,6 +7,10 @@
     background: url("../../img/macbook.jpg") no-repeat center center;
     height: 100vh;
     width: 100%;
+    background-size: cover;
+    -webkitz- background-size: cover;
+    -o- background-size: cover;
+    -moz- background-size: cover;
     }
 
 .name_container {
