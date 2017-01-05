@@ -1,4 +1,3 @@
 markdown: redcarpet
 baseurl: /ramdettmer
 exclude: ['README.md']
-url: "https://trace751.github.io/ramdettmer/" 
