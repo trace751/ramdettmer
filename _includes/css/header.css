@@ -4,8 +4,8 @@
     }
 
 .header_img {
-    background: url('{{site.baseurl}}/../../macbook.png') no-repeat center center;
-    height: 100vh;
+    background: url('../../macbook.png') no-repeat center center;
+    height: auto;
     width: 100%;
     background-size: cover;
     -webkitz- background-size: cover;
