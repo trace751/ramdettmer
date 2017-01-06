@@ -41,6 +41,11 @@ body {
 
 /*-------- NAV ----------*/
 
+/*-------- adding nav in the future while content grows------*/
+nav {
+    display: none;
+}
+
 nav ul li {
     display: inline-block;
 }
