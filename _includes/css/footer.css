@@ -7,6 +7,7 @@ footer {
 }
 
 .footer_h {
+    padding-top: 50px;
     text-align: center;
     padding-bottom: 50px;
     color: #d4a867;
@@ -25,8 +26,20 @@ label {
 .submit_btn {
     display: block;
     margin: 0 auto;
+    width: 20%;
 }
 
 input, textarea {
     border: 2px solid #d4a867;
+    width: 25%;
+}
+
+input {
+    height: 20px;
+}
+
+@media screen and (max-width: 620px){
+    input, textarea {
+        width: 50%;
+    }
 }

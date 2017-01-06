@@ -8,7 +8,7 @@ body {
 }
 
 .header_img {
-    background: url('https://trace751.github.io/ramdettmer/macbook.png') no-repeat center center;
+    background: url('https://trace751.github.io/ramdettmer/macbook.png') no-repeat center center fixed;
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -50,11 +50,13 @@ a {
 }
 
 li a {
-    margin-left: 10px;
+    margin-left: 50px;
     list-style-type: none;
     text-decoration: none;
+    font-size: 1.5em;
 }
 
+/*-------- MEDIA QUERIES ----------*/
 
 @media screen and (max-width: 620px){
     
@@ -72,12 +74,35 @@ li a {
 }
 
 article {
-    padding: 20px;
+    padding: 50px 20px;
 }
 
 .location {
     color: #d4a867;
     font-size: 2em;
+}
+.social_header {
+    padding-top: 50px;
+    font-size: 2em;
+    text-align: center;
+    color: #d4a867;
+}
+
+i {
+    padding: 70px;
+}
+
+.social {
+    text-align: center;
+    background-color: #583f48;
+}
+
+/*-------- MEDIA QUERIES ----------*/
+
+@media screen and (max-width: 620px){
+i {
+    padding: 50px 15px;
+}
 }
 footer {
     background-color: #EEEEEE;
@@ -88,6 +113,7 @@ footer {
 }
 
 .footer_h {
+    padding-top: 50px;
     text-align: center;
     padding-bottom: 50px;
     color: #d4a867;
@@ -106,8 +132,20 @@ label {
 .submit_btn {
     display: block;
     margin: 0 auto;
+    width: 20%;
 }
 
 input, textarea {
     border: 2px solid #d4a867;
+    width: 25%;
+}
+
+input {
+    height: 20px;
+}
+
+@media screen and (max-width: 620px){
+    input, textarea {
+        width: 50%;
+    }
 }

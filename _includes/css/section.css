@@ -1,0 +1,23 @@
+.social_header {
+    padding-top: 50px;
+    font-size: 2em;
+    text-align: center;
+    color: #d4a867;
+}
+
+i {
+    padding: 70px;
+}
+
+.social {
+    text-align: center;
+    background-color: #583f48;
+}
+
+/*-------- MEDIA QUERIES ----------*/
+
+@media screen and (max-width: 620px){
+i {
+    padding: 50px 15px;
+}
+}
