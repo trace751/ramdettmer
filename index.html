@@ -20,10 +20,10 @@ $(document).ready(function() {
     $('.name_container').hide().fadeIn(3000);
                    
         $(window).scroll(function(){                          
-            if ($(this).scrollTop() > 500) {
-                $('.article_p').slideDown(800);
+            if ($(this).scrollTop() > 350) {
+                $('article').slideDown(800);
             } else {
-                $('.article_p').slideUp(1000);
+                $('article').slideUp(1000);
             }
         });
 });

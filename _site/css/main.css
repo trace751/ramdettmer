@@ -81,6 +81,7 @@ li a {
 
 article {
     padding: 50px 20px;
+    display: none;
 }
 
 .location {
