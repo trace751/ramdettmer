@@ -15,10 +15,18 @@
     
     <script src="../js/jquery-3.1.1.min.js"></script>
     <script>
-       $(document).ready(function() {
-           $('.name_container').hide().fadeIn(3000);
-       })
+$(document).ready(function() {
     
+    $('.name_container').hide().fadeIn(3000);
+                   
+        $(window).scroll(function(){                          
+            if ($(this).scrollTop() > 500) {
+                $('.article_p').slideDown(800);
+            } else {
+                $('.article_p').slideUp(1000);
+            }
+        });
+});
     </script>
 </body>
 </html>

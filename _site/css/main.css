@@ -115,7 +115,7 @@ article {
 }
 
 i {
-    padding: 70px;
+    margin: 50px;
 }
 
 .social {
@@ -126,8 +126,8 @@ i {
 /*-------- MEDIA QUERIES ----------*/
 
 @media screen and (max-width: 620px){
-i {
-    padding: 50px 15px;
+    i {
+    padding: 50px auto;
 }
 }
 footer {
