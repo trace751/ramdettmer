@@ -71,9 +71,10 @@
     <script src="../js/jquery-3.1.1.min.js"></script>
     <script>
 $(document).ready(function() {
-    
+    //fade in name container on page load
     $('.name_container').hide().fadeIn(3000);
-                   
+        
+        //slide down article on scroll
         $(window).scroll(function(){                          
             if ($(this).scrollTop() > 350) {
                 $('article').slideDown(800);
@@ -81,6 +82,11 @@ $(document).ready(function() {
                 $('article').slideUp(1000);
             }
         });
+    
+    // fade out name_container on scroll
+        $(window).scroll(function(){
+    $('.name_container').css('opacity', 1 - $(window).scrollTop() / 250);
+  });
 });
     </script>
 </body>
