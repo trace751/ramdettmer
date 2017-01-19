@@ -1,0 +1,39 @@
+.skill-wrapper
+  padding-top: 50px;
+  background-color: #353535;
+  
+.rate
+  display: none
+  
+h4
+  padding-left: 10px
+  color: #fff
+  letter-spacing: .1em
+  
+.html-bar
+  height: .5em
+  width: 0%
+  background-color: #07a6bb
+  border-radius: 2em
+  box-shadow: 5px 5px 5px #1a1a1a
+ 
+.css-bar
+  width: 0%
+  height: .5em
+  background-color: #7a0045
+  border-radius: 2em
+  box-shadow: 5px 5px 5px #1a1a1a
+  
+.jquery-bar
+  width: 20%
+  height: .5em
+  background-color: #f43243
+  border-radius: 2em
+  box-shadow: 5px 5px 5px #1a1a1a
+  
+.ui-bar
+  width: 30%
+  height: .5em
+  background-color: #68e1a8
+  border-radius: 2em
+  box-shadow: 5px 5px 5px #1a1a1a
