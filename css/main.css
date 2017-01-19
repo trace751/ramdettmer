@@ -3,5 +3,6 @@
 
 {% include css/header.css %}
 {% include css/article.css %}
+{% include css/skills.css %}
 {% include css/section.css %}
 {% include css/footer.css %}
