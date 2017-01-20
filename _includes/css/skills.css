@@ -8,11 +8,11 @@
   display: none;
 }
   
-/*h4 {
+.skill-title {
   padding-left: 10px;
   color: #fff;
   letter-spacing: .1em;
-}*/
+}
   
 .html-bar {
   height: .5em;
