@@ -1,5 +1,6 @@
 .skill-wrapper {
   padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #353535;
 }
   
@@ -30,7 +31,7 @@
 }
   
 .jquery-bar {
-  width: 20%;
+  width: 0%;
   height: .5em;
   background-color: #f43243;
   border-radius: 2em;
@@ -38,7 +39,7 @@
 }
   
 .ui-bar {
-  width: 30%;
+  width: 0%;
   height: .5em;
   background-color: #68e1a8;
   border-radius: 2em;
