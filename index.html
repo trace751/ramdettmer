@@ -30,6 +30,18 @@ $(document).ready(function() {
             }
         });
     
+    
+        //skill bar animation
+        $(window).scroll(function(){                          
+            if ($(this).scrollTop() > 400) {
+                $(".html-bar").animate({width:"90%"},2100);
+                $('.css-bar').animate({width: '70%'}, 2100);
+                $('.jquery-bar').animate({width: '30%'}, 2100);
+                $('.ui-bar').animate({width: '60%'}, 2100);
+                $('.rate').fadeIn(3000);
+            }
+        });
+    
     // fade out name_container on scroll
         $(window).scroll(function(){
     $('.name_container').css('opacity', 1 - $(window).scrollTop() / 250);
