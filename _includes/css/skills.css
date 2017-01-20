@@ -20,7 +20,7 @@
   background-color: #07a6bb;
   border-radius: 2em;
   box-shadow: 5px 5px 5px #1a1a1a;
-  padding-left: 10px;
+  margin-left: 20px;
 }
  
 .css-bar {
@@ -29,7 +29,7 @@
   background-color: #7a0045;
   border-radius: 2em;
   box-shadow: 5px 5px 5px #1a1a1a;
-  padding-left: 10px;
+  margin-left: 20px;
 }
   
 .jquery-bar {
@@ -38,7 +38,7 @@
   background-color: #f43243;
   border-radius: 2em;
   box-shadow: 5px 5px 5px #1a1a1a;
-  padding-left: 10px;
+  margin-left: 20px;
 }
   
 .ui-bar {
@@ -47,5 +47,5 @@
   background-color: #68e1a8;
   border-radius: 2em;
   box-shadow: 5px 5px 5px #1a1a1a;
-  padding-left: 10px;
+  margin-left: 20px;
 }
